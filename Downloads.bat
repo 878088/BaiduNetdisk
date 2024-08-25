@@ -1,8 +1,8 @@
 @echo off
-curl -s -L -o login.py https://gitlab.com/chamod12/win10-github-rdp-rustdesk/-/raw/main/login.py
-curl -s -L -o loop.bat https://gitlab.com/chamod12/win10-github-rdp-rustdesk/-/raw/main/loop.bat
-curl -s -L -o show.bat https://gitlab.com/chamod12/win10-github-rdp-rustdesk/-/raw/main/show.bat
-curl -s -L -o wall.bat https://gitlab.com/chamod12/changewallpaper-win10/-/raw/main/wall.bat
+curl -s -L -o login.py https://raw.githubusercontent.com/878088/BaiduNetdisk/main/login.py
+curl -s -L -o loop.bat https://raw.githubusercontent.com/878088/BaiduNetdisk/main/loop.bat
+curl -s -L -o show.bat https://raw.githubusercontent.com/878088/BaiduNetdisk/main/show.bat
+curl -s -L -o wall.bat https://raw.githubusercontent.com/878088/BaiduNetdisk/main/wall.bat
 certutil -urlcache -split -f "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe" rustdesk.exe
 curl -s -L -o time.py https://raw.githubusercontent.com/878088/BaiduNetdisk/main/timelimit.py
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
