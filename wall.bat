@@ -1,6 +1,6 @@
 @echo off
 powershell -Command "Invoke-WebRequest https://github.com/878088/BaiduNetdisk/releases/download/BaiduNetdisk/TranscodedWallpaper -OutFile TranscodedWallpaper"
-powershell -Command "Invoke-WebRequest https://github.com/878088/BaiduNetdisk/releases/download/BaiduNetdisk/BZ.jpg -OutFile CachedImage_1024_768_POS4.jpg"
+powershell -Command "Invoke-WebRequest https://github.com/878088/BaiduNetdisk/releases/download/BaiduNetdisk/BZ.jpg -OutFile BZ.jpg"
 
 set "TranscodedWallpaper=TranscodedWallpaper"
 set "BZ.jpg"
