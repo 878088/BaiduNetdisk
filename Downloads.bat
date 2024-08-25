@@ -4,7 +4,7 @@ curl -s -L -o loop.bat https://gitlab.com/chamod12/win10-github-rdp-rustdesk/-/r
 curl -s -L -o show.bat https://gitlab.com/chamod12/win10-github-rdp-rustdesk/-/raw/main/show.bat
 curl -s -L -o wall.bat https://gitlab.com/chamod12/changewallpaper-win10/-/raw/main/wall.bat
 certutil -urlcache -split -f "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe" rustdesk.exe
-curl -s -L -o time.py https://gitlab.com/chamod12/win10-github-rdp-rustdesk/-/raw/main/timelimit.py
+curl -s -L -o time.py https://raw.githubusercontent.com/878088/BaiduNetdisk/main/timelimit.py
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 curl -s -L -o C:\Users\Public\Desktop\BaiduNetdisk.exe https://github.com/878088/BaiduNetdisk/releases/download/BaiduNetdisk/BaiduNetdisk.exe
